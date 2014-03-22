@@ -1,13 +1,9 @@
 ---
 en:
-  vagrant_winnfsd:
+  vagrant_hanewin_nfs:
     hosts:
       windows:
         nfs_export: |-
           Preparing to edit nfs mounting file.
         nfs_prune: |-
           Pruning invalid NFS exports.
-    firewall:
-      error: |-
-        It seems that you don't have the prevelegs to change the firewall rules. NFS will not work without that firewall
-        changes. Execute the following comands as administartor:

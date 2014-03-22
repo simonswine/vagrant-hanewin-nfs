@@ -1,10 +1,10 @@
-# Vagrant WinNFSd
+# Vagrant Hanewin NFS
 
 Manage and adds support for NFS on windows.
 
 ## Supported Platforms
 
-As of version 1.0.0 or later Vagrant 1.4 is required.
+Only tested with Vagrant 1.5.0 or later
 
 Supported guests:
 
@@ -13,15 +13,22 @@ Supported guests:
 ## Installation
 
 ```
-$ vagrant plugin install vagrant-winnfsd
+$ vagrant plugin install vagrant-hanewin-nfs
 ```
 
-## Activate NFS for vagrant
+## Hanewin NFS
 
-To activate NFS for vagrant see: http://docs.vagrantup.com/v2/synced-folders/nfs.html
+You need to install Hanewin NFS Server to use this plugin. Hanewin NFS is
+shareware and can be evaluated for 30 days.D 
 
-The plugin extends vagrant in the way that you can use NFS also with windows. So the following hint on the vagrant documentation page is no longer true.
+You can get it here:
 
-```
-Windows users: NFS folders do not work on Windows hosts. Vagrant will ignore your request for NFS synced folders on Windows.
-```
+http://www.hanewin.de/nfs-d.htm
+
+
+## Thanks to
+
+* @GM-Alex [vagrant-winnfsd](https://github.com/GM-Alex/vagrant-winnfsd) idea and basic structure of this plugin.
+
+
+

@@ -1,18 +1,18 @@
 $:.unshift File.expand_path("../lib", __FILE__)
-require "vagrant-winnfsd/version"
+require "vagrant-hanewin-nfs/version"
 
 Gem::Specification.new do |gem|
-  gem.name    = 'vagrant-winnfsd'
-  gem.version = VagrantPlugins::VagrantWinNFSd::VERSION
+  gem.name    = 'vagrant-hanewin-nfs'
+  gem.version = VagrantPlugins::VagrantHanewinNfs::VERSION
 
-  gem.summary     = 'Adds NFS support for Windows'
+  gem.summary     = 'Adds NFS support for Windows with Hanewin NFS'
   gem.description = <<-EOD
     Manage and adds support for NFS on windows.
   EOD
 
-  gem.authors  = 'Alexander Schneider'
-  gem.email    = 'alexander.schneider@jankowfsky.com'
-  gem.homepage = 'https://github.com/gm-alex/vagrant-winnfsd'
+  gem.authors  = 'Christian Simon'
+  gem.email    = 'simon@swine.de'
+  gem.homepage = 'https://github.com/simonswine/vagrant-hanewin-nfs'
 
   gem.has_rdoc = true
   gem.license  = 'Apache 2.0'
